@@ -1,0 +1,17 @@
+{
+  "name": "简约",//插件名.
+  "description": "这是一个简约的插件",//插件说明
+  "version": "1.0",//版本号
+  "manifest_version": 3,//manifest版本,默认3就行
+  "permissions": [//插件需要的权限
+    "storage",
+    "tabs"
+  ],
+  "chrome_url_overrides"://覆盖默认的浏览器主页和新建标签的网页地址
+	{
+		"newtab": "hello.html"
+	},
+  "icons": {//插件图标
+    "16": "/img/logo.png"
+  }
+}
